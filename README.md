@@ -57,7 +57,7 @@ This repository contains a from-scratch PyTorch implementation of the PointPilla
 ## Installation
 
 ```
-git clone https://github.com/your-username/pointpillars-nuscenes.git
+git clone https://github.com/ramneelavarapu929-hash/pointpillars-nuscenes.git
 cd pointpillars-nuscenes
 ```
 

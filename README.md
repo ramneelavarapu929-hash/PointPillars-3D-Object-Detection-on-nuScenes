@@ -61,15 +61,18 @@ pip install torch numpy open3d nuscenes-devkit pyyaml
 Download nuScenes v1.0 mini from the official site
 
 Set the dataset directory:
+
 ```export NUSCENES_ROOT=/path/to/nuscenes```
 
 ## Training
-```python train.py
+```
+python train.py
 ```
 
 
 ## Inference & Visualization
-```python inference.py
+```
+python inference.py
 ```
 
 Loads trained .pth checkpoint

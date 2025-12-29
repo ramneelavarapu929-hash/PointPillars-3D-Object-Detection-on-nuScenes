@@ -16,7 +16,7 @@ Rich Open3D visualizations for debugging and interpretability
 Built and tested on nuScenes v1.0 mini
 
 # Repository Structure
-.
+```.
 ├── configs/
 │   └── pointpillars.yaml
 │
@@ -40,7 +40,7 @@ Built and tested on nuScenes v1.0 mini
 │
 ├── train.py
 ├── inference.py
-└── README.md
+└── README.md```
 
 # Installation
 
@@ -56,14 +56,14 @@ pip install torch numpy open3d nuscenes-devkit pyyaml
 Download nuScenes v1.0 mini from the official site
 
 Set the dataset directory:
-export NUSCENES_ROOT=/path/to/nuscenes
+```export NUSCENES_ROOT=/path/to/nuscenes```
 
 # Training
-python train.py
+```python train.py```
 
 
 # Inference & Visualization
-python inference.py
+```python inference.py```
 
 Loads trained .pth checkpoint
 

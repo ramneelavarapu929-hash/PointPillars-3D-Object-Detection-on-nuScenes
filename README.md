@@ -1,19 +1,19 @@
 # PointPillars-3D-Object-Detection-on-nuScenes
 This repository contains a from-scratch PyTorch implementation of the PointPillars 3D object detection pipeline using LiDAR point clouds from the nuScenes mini dataset.
 
-### Project Highlights
+** Project Highlights  **
 
-End-to-end PointPillars architecture implemented in PyTorch
+* End-to-end PointPillars architecture implemented in PyTorch
 
-LiDAR pillarization (voxelization in BEV) and feature encoding
+* LiDAR pillarization (voxelization in BEV) and feature encoding
+ 
+* Dense BEV convolutional backbone with anchor-based detection heads
 
-Dense BEV convolutional backbone with anchor-based detection heads
+* GPU-optimized training and inference pipeline
 
-GPU-optimized training and inference pipeline
+* Rich Open3D visualizations for debugging and interpretability
 
-Rich Open3D visualizations for debugging and interpretability
-
-Built and tested on nuScenes v1.0 mini
+* Built and tested on nuScenes v1.0 mini
 
 ## Repository Structure
 ```.
@@ -45,15 +45,17 @@ Built and tested on nuScenes v1.0 mini
 
 ## Installation
 
-'''git clone https://github.com/your-username/pointpillars-nuscenes.git
+```
+git clone https://github.com/your-username/pointpillars-nuscenes.git
 cd pointpillars-nuscenes
-'''
+```
 
 
-'''conda create -n pointpillars python=3.9
+```
+conda create -n pointpillars python=3.9
 conda activate pointpillars
 pip install torch numpy open3d nuscenes-devkit pyyaml
-'''
+```
 
 ## Dataset Setup (nuScenes Mini)
 Download nuScenes v1.0 mini from the official site
@@ -78,36 +80,36 @@ Visualizes predictions using Open3D
 
 ## Example Visualizations
 
-Raw LiDAR point clouds
+* Raw LiDAR point clouds
 
-Pillar centers and density
+* Pillar centers and density
 
-BEV feature grids
+* BEV feature grids
 
-Predicted 3D bounding boxes
+* Predicted 3D bounding boxes
 
 # Limitations
 
-Uses simplified anchor configuration
+* Uses simplified anchor configuration
 
-Not tuned for benchmark-level mAP
+* Not tuned for benchmark-level mAP
 
 # Future Work
 
-3D Non-Max Suppression (NMS)
+* 3D Non-Max Suppression (NMS)
 
-Camera–LiDAR mid-level fusion
+* Camera–LiDAR mid-level fusion
 
-CenterPoint-style anchor-free head
+* CenterPoint-style anchor-free head
 
-Multi-frame temporal fusion
+* Multi-frame temporal fusion
 
-Quantitative evaluation (mAP)
+* Quantitative evaluation (mAP)
 
 # Acknowledgements
 
-Original PointPillars paper (Lang et al., CVPR 2019)
+* Original PointPillars paper (Lang et al., CVPR 2019)
 
-nuScenes dataset by Aptiv / Motional
+* nuScenes dataset by Aptiv / Motional
 
-Open3D for visualization
+* Open3D for visualization

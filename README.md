@@ -57,7 +57,7 @@ This repository contains a from-scratch PyTorch implementation of the PointPilla
 ## Installation
 
 ```
-git clone https://github.com/ramneelavarapu929-hash/pointpillars-nuscenes.git
+git clone [https://github.com/ramneelavarapu929-hash/pointpillars-nuscenes.git](https://github.com/ramneelavarapu929-hash/PointPillars-3D-Object-Detection-on-nuScenes.git)
 cd pointpillars-nuscenes
 ```
 
